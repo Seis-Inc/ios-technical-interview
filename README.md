@@ -4,8 +4,8 @@
 ### Download
   1. Open the phoneListServer project under ios-technical-interview/phoneListServer run this app (you may have to adjust the signing)
   2. Use this url to access the list of phone numbers you will be required to parse: "http://localhost:8181/phone-numbers"
-  2. Use URLSession without any 3rd party code
-  3. Use async await
+  3. Use URLSession without any 3rd party code
+  4. Use async await
 ### Parse
   1. Once you've downloaded the phone numbers
   1. Use Apple's [Regex Builder](https://developer.apple.com/documentation/regexbuilder) to parse the phone numbers
