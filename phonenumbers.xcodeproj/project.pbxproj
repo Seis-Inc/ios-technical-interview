@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD876D4A2A78255A00E128E5 /* phonenumbersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D492A78255A00E128E5 /* phonenumbersApp.swift */; };
+		FD876D4A2A78255A00E128E5 /* PhoneNumbersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */; };
 		FD876D4C2A78255A00E128E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D4B2A78255A00E128E5 /* ContentView.swift */; };
 		FD876D4E2A78255B00E128E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD876D4D2A78255B00E128E5 /* Assets.xcassets */; };
 		FD876D512A78255B00E128E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD876D502A78255B00E128E5 /* Preview Assets.xcassets */; };
 		FD876D5B2A78255B00E128E5 /* phonenumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D5A2A78255B00E128E5 /* phonenumbersTests.swift */; };
 		FD876D652A78255B00E128E5 /* phonenumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D642A78255B00E128E5 /* phonenumbersUITests.swift */; };
 		FD876D672A78255B00E128E5 /* phonenumbersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D662A78255B00E128E5 /* phonenumbersUITestsLaunchTests.swift */; };
+		FD876D742A78259000E128E5 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D732A78259000E128E5 /* PhoneNumberParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		FD876D462A78255A00E128E5 /* phonenumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonenumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD876D492A78255A00E128E5 /* phonenumbersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonenumbersApp.swift; sourceTree = "<group>"; };
+		FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumbersApp.swift; sourceTree = "<group>"; };
 		FD876D4B2A78255A00E128E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD876D4D2A78255B00E128E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD876D502A78255B00E128E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		FD876D602A78255B00E128E5 /* phonenumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonenumbersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD876D642A78255B00E128E5 /* phonenumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonenumbersUITests.swift; sourceTree = "<group>"; };
 		FD876D662A78255B00E128E5 /* phonenumbersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonenumbersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD876D732A78259000E128E5 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,8 @@
 		FD876D482A78255A00E128E5 /* phonenumbers */ = {
 			isa = PBXGroup;
 			children = (
-				FD876D492A78255A00E128E5 /* phonenumbersApp.swift */,
+				FD876D732A78259000E128E5 /* PhoneNumberParser.swift */,
+				FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */,
 				FD876D4B2A78255A00E128E5 /* ContentView.swift */,
 				FD876D4D2A78255B00E128E5 /* Assets.xcassets */,
 				FD876D4F2A78255B00E128E5 /* Preview Content */,
@@ -258,7 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD876D4C2A78255A00E128E5 /* ContentView.swift in Sources */,
-				FD876D4A2A78255A00E128E5 /* phonenumbersApp.swift in Sources */,
+				FD876D742A78259000E128E5 /* PhoneNumberParser.swift in Sources */,
+				FD876D4A2A78255A00E128E5 /* PhoneNumbersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
