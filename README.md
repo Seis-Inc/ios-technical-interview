@@ -10,7 +10,7 @@
   1. Once you've downloaded the phone numbers
   1. Use Apple's [Regex Builder](https://developer.apple.com/documentation/regexbuilder) to parse the phone numbers
   1. Parse the phone numbers into the given `PhoneNumber` struct using the given `parsePhoneNumber(input:) throws -> PhoneNumber` function
-  2. Pay close attention to the two required formatts inside the `PhoneNumber` struct (e164 and international)
+  2. Pay close attention to the two required formats inside the `PhoneNumber` struct (e164 and international)
 ### Display
   1. Build SwiftUI view(s) to display the parsed numbers.
   2. Make sure the country flag and at least one of the formatted versions of the phone number are present.
