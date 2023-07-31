@@ -14,8 +14,9 @@
 ### Display
   1. Build SwiftUI view(s) to display the parsed numbers.
   2. Make sure the country flag and at least one of the formatted versions of the phone number are present.
-  3. Tapping on a US phone number should prompt the system to call that number
-  4. Tapping on a non-US phone number should show an alert the user will be charged additional fees before calling the number
+  3. If the phone number from the server is invalid, still display that number with some indication that it in invalid. Do not exclude it in the UI
+  4. Tapping on a US phone number should prompt the system to call that number
+  5. Tapping on a non-US phone number should show an alert the user will be charged additional fees before calling the number
 
 ## Other Notes
   1. Keep any browser tabs open you use and open a new tab for each new search
