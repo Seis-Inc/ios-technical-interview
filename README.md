@@ -2,7 +2,8 @@
 # Code Challenge Instructions
 ## Build an app that downloads, parses, and displays phone numbers
 ### Download
-  1. Use this url to access the list of phone numbers you will be required to parse: "https://matt.ngrok.io.test.updatethislater"
+  1. Open the phoneListServer project under ios-technical-interview/phoneListServer run this app (you may have to adjust the signing)
+  2. Use this url to access the list of phone numbers you will be required to parse: "http://localhost:8181/phone-numbers"
   2. Use URLSession without any 3rd party code
   3. Use async await
 ### Parse
