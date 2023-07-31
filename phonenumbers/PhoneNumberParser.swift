@@ -16,7 +16,7 @@ struct PhoneNumber {
 }
 
 class PhoneNumberParser {
-    static func parsePhoneNumberInput(input: String) throws -> PhoneNumber {
+    static func parsePhoneNumber(input: String) throws -> PhoneNumber {
         //use Apple's RegexBuilder
     }
 }
