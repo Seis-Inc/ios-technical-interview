@@ -21,11 +21,11 @@ final class Server: ObservableObject {
         let numbersObject: [String: [String]] = [
             "phoneNumbers":
                 [
-                    "+18013601234", //US
-                    "+18095648879", //Republica Dominicana
-                    "+50422763791", //Honduras
-                    "+525585266971",//Mexico
-                    "+59173128301", //Boliva
+                    "+1 801 360-1234", //US
+                    "+1 (809) 5648879", //Republica Dominicana
+                    "+504 227 63 791", //Honduras
+                    "+52 55 85 2669 71",//Mexico
+                    "+591-731-28-301", //Boliva
                     "+56522555592", //Chile
                     "+1445",        //Invalid US
                     "+593222"       //Invalid Ecuador

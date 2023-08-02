@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD70361B2A78392E00D0C691 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70361A2A78392E00D0C691 /* PhoneNumber.swift */; };
 		FD876D4A2A78255A00E128E5 /* PhoneNumbersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */; };
 		FD876D4C2A78255A00E128E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD876D4B2A78255A00E128E5 /* ContentView.swift */; };
 		FD876D4E2A78255B00E128E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD876D4D2A78255B00E128E5 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD70361A2A78392E00D0C691 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		FD876D462A78255A00E128E5 /* phonenumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonenumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumbersApp.swift; sourceTree = "<group>"; };
 		FD876D4B2A78255A00E128E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		FD876D482A78255A00E128E5 /* phonenumbers */ = {
 			isa = PBXGroup;
 			children = (
+				FD70361A2A78392E00D0C691 /* PhoneNumber.swift */,
 				FD876D732A78259000E128E5 /* PhoneNumberParser.swift */,
 				FD876D492A78255A00E128E5 /* PhoneNumbersApp.swift */,
 				FD876D4B2A78255A00E128E5 /* ContentView.swift */,
@@ -263,6 +266,7 @@
 				FD876D4C2A78255A00E128E5 /* ContentView.swift in Sources */,
 				FD876D742A78259000E128E5 /* PhoneNumberParser.swift in Sources */,
 				FD876D4A2A78255A00E128E5 /* PhoneNumbersApp.swift in Sources */,
+				FD70361B2A78392E00D0C691 /* PhoneNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

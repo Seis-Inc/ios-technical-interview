@@ -6,6 +6,7 @@
   2. Use this url to access the list of phone numbers you will be required to parse: "http://localhost:8181/phone-numbers"
   3. Use URLSession without any 3rd party code
   4. Use async await
+  5. The phone numbers downloaded from the server are the only countries that need to be supported.
 ### Parse
   1. Once you've downloaded the phone numbers
   1. Use Apple's [Regex Builder](https://developer.apple.com/documentation/regexbuilder) to parse the phone numbers
